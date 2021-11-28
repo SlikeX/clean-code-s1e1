@@ -39,14 +39,14 @@
   margin: 0 auto 0;
 }
 
-.task {
+.add-element__item {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
   outline: none;
 }
 
-.task-row-wrapper {
+.add-element__wrapper {
   display: flex;
 }
 
@@ -125,7 +125,7 @@ input[type="text"]:focus {
   vertical-align: middle;
 }
 
-.task-checkbox {
+.task-item__checkbox {
   margin: 0 10px;
 }
 
@@ -140,13 +140,13 @@ li >  input[type="text"] {
   width: 226px;
 }
 
-button.delete img {
+.task-item__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.task-item__delete img:hover {
   transform: rotateZ(0);
 }
 
